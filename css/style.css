@@ -1,0 +1,177 @@
+@font-face {
+    font-family: FuturaPT;
+    font-style: normal;
+    font-weight: heavy;
+    src: url(../fonts/FuturaPT-Heavy.woff);
+}
+
+@font-face {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/ProximaNova-Regular.woff);
+
+}
+
+body {
+    background: #464f54;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body,
+form,
+div,
+p,
+a,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+table tr,
+table td {
+    border: none;
+    color: #000000;
+    font-family: Georgia;
+    font-size: 26.92px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    color: #2a2a2a;
+    font-family: FuturaPT;
+    font-style: normal;
+    font-weight: heavy;
+    font-size: 77.93px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+    padding: 0 0 20px 0;
+    color: #8f8f8f;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+.main {
+    max-width: 1060px;
+    margin: 0 auto;
+
+}
+
+.pre-text-block {
+    position: absolute;
+    right: 0;
+    top: 47px;
+    max-width: 100%;
+    z-index: 5;
+}
+
+.pre-text-block .title-bar {
+    background-color: #181818;
+    padding: 10px 0 40px 60px;
+}
+
+.title-bar .caption {
+    color: #767676;
+    font-family: Proxima Nova;
+    font-size: 15px;
+    letter-spacing: 3.2px;
+    padding-top: 50px;
+    margin-right: 750px;
+}
+
+.title-bar .content {
+    color: #fefefe;
+    font-size: 48px;
+
+}
+
+.m-line {
+    color: #afb1b3;
+}
+
+.control-bar {
+    background-color: #f8be2c;
+    padding: 25px 200px 25px 42px;
+    position: absolute;
+    right: 0;
+    z-index: 5;
+
+}
+
+
+.text-block {
+    background-color: #fefefe;
+    margin: 150px auto;
+    padding: 202px 125px 0 125px;
+
+
+}
+
+.border {
+    border-left: 2px solid #e8eced;
+    height: 115%;
+    position: absolute;
+    margin: 0 67px;
+    z-index: 0;
+}
+
+.text-block .author {
+    color: #b4b4b4;
+    font-family: Proxima Nova;
+    font-size: 19.84px;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+}
+
+.text-block .text {
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.text-block .text:last-child {
+    padding-bottom: 40px;
+}
